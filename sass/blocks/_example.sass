@@ -1,0 +1,40 @@
+.example
+    position: relative
+    background-color: #f7fafc
+    text-align: center
+    padding: 120px 0 60px 0
+    &-carousel 
+        background-color: #f7fafc
+        width: 100%
+        margin: 60px auto
+        height: 550px
+        position: relative
+        clear: both
+        overflow: hidden
+        &-carousel img 
+            visibility: hidden
+            cursor: pointer
+
+        &_nav 
+            &-item
+                &:first-of-type
+                    top: 55%
+                    left: 12%
+                &:last-of-type
+                    top: 55%
+                    right: 12%
+.split-left 
+    width: 450px
+    float: left
+      
+.split-right 
+    width: 400px
+    float: left
+    margin-left: 10px
+      
+#callback-output 
+    height: 250px
+    overflow: scroll
+      
+textarea#newoptions 
+    width: 430px
