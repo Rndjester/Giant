@@ -1,7 +1,6 @@
 .review
     text-align: center
     padding: 120px
-    position: relative
     &_subtitle
         width: 60%
         margin: auto
@@ -9,8 +8,10 @@
     &__cards
         display: flex
         text-align: left
+        overflow: hidden
+        justify-content: flex-start
         &-item
-            width: 33%
+            min-width: 360px
             margin-right: 30px
             background-color: #f7fafc
             padding: 40px
@@ -29,9 +30,8 @@
                 margin-top: 25px    
         &-carousel_nav-item
             &:first-of-type
-                top: 60%
-                left: 8%
+                top: 65%
+                left: -70px
             &:last-of-type
-                top: 60%
-                right: 8%
-                
+                top: 65%
+                right: -70px

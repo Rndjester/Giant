@@ -21,9 +21,6 @@ $(document).ready(function () {
         horizonOffset: 0,
         sizeMultiplier: 0.9
     });
-
-
-
     $('#prev').bind('click', function () {
         carousel.prev();
         return false
@@ -39,5 +36,7 @@ $(document).ready(function () {
         carousel.reload(newOptions);
         return false;
     });
+});
+    
 
-    });
+    
